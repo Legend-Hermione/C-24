@@ -16,7 +16,7 @@ function setup(){
     box2 = new Box(920,320,70,70);
     box3 = new Box(700,240,70,70);
     box4 = new Box(920,240,70,70);
-    box5=new Box();
+    box5=new Box(810,90,70,70);
     ground = new Ground(600,height,1200,20)
     pig1=new Pig(810,350);
     pig2=new Pig(810,220);
@@ -35,6 +35,7 @@ function draw(){
     box2.display();
     box3.display();
     box4.display();
+    box5.display();
     ground.display();
     pig1.display();
     pig2.display();
